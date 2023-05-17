@@ -1,0 +1,96 @@
+*{margin: 0;
+  font-family: 'Montserrat', sans-serif;
+background-color: hsl(0, 3%, 95%);
+}
+
+.test{
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+.projekt__overview{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:10px
+}
+.projekt__picture{
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+}
+.projects__overview{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+
+}
+.link__picture{
+  max-width: 400px;
+  max-height: 400px;
+}
+.github__picture{
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50px;
+
+}
+.projekte__uberschrift{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.projekt__picture:hover{
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  transition: .2s;
+}
+.projekt__beschreibung_main{
+  font-size: 1.2em;
+  line-height: 140%;
+}
+
+.projekt__beschreibung_highlight{
+  line-height: 160%;
+}
+.test__github{
+  max-width: 50px;
+  max-height: 50px ;
+  align-items: center;
+  justify-content:center;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.centerGit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.bio{
+  text-align: center;
+  font-size: 22px;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  line-height: 140%;
+}
+.kleingedrucktes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height:160%;
+}
